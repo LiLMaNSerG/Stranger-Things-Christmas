@@ -1,15 +1,15 @@
 import time
 import board
-import neopixel  # The special library to drive the RGB LEDs
+import neopixel  # The special library to drive the RGB LEDs.
 import random
 
-# The RPi Board-pin connected to the DATA-in of the RGB light strand
+# The RPi Board-pin connected to the DATA-in of the RGB light strand.
 pixel_pin = board.D21
 
-# The number of pixels on the light strand
+# The number of pixels on the light strand.
 num_pixels = 50
 
-# The order of the pixel colors - RGB vs. GRB
+# The order of the pixel colors - RGB vs. GRB.
 ORDER = neopixel.RGB
 
 # class neopixel.NeoPixel(pin: microcontroller.Pin,
@@ -20,7 +20,7 @@ ORDER = neopixel.RGB
 #                         pixel_order: str = None)
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False, pixel_order=ORDER)
 
-# Dictionary of standard color-name(key), RGB color-code(value) pairs
+# Dictionary of standard color-name(key), RGB color-code(value) pairs.
 color_dict = {
       'red'   : (255, 0, 0),
       'orange': (229, 83, 0),
@@ -39,7 +39,7 @@ color_dict = {
       'off'   : (0, 0, 0)
 }
 
-# Dictionary of letters(key), pixel-number(value) pairs
+# Dictionary of letters(key), pixel-number(value) pairs.
 letter_light_dict = {
     'Z': 0,
     'Y': 1,
@@ -68,13 +68,13 @@ letter_light_dict = {
     'B': 47,
     'A': 49,
 }
-# test function to verify all lights are operational
+# test function to verify all lights are operational.
 def test():
     print ("Test...")
     pixels.fill(color_dict['cyan'])
     pixels.show()
 
-# christmas_pattern sets the default christmas color pattern across all lights
+# christmas_pattern sets the default christmas color pattern across all lights.
 def christmas_pattern():
     print ("Christmas Pattern...")
     pixels[0] = color_dict['red']
@@ -129,13 +129,13 @@ def christmas_pattern():
     pixels[49] = color_dict['blue']
     pixels.show()
 
-# stranger_things_pattern displays a sequence spelling the user's input string with a flickering lights finish
+# stranger_things_pattern displays a sequence spelling the user's input string with a flickering lights finish.
 def stranger_things_pattern(input_string):
     print ("Stranger Things Pattern...")
     pattern_string = input_string.upper()
     color_list = ['red', 'orange', 'yellow', 'green', 'blue']
 
-    # Initialize the lights to christmas lights pattern
+    # Initialize the lights to christmas lights pattern.
     christmas_pattern()
     time.sleep(2)
     pixels.fill(color_dict['off'])
@@ -165,7 +165,7 @@ def stranger_things_pattern(input_string):
         pixels.show()
         time.sleep(0.08)
 
-# christmas_even_pattern turns alternating lights on and off in a christmas color pattern
+# christmas_even_pattern turns alternating lights on and off in a christmas color pattern.
 def christmas_even_pattern(wait):
     print ("Christmas Even Pattern...")
     pixels[0] = color_dict['red']
@@ -285,6 +285,6 @@ try:
         christmas_pattern()
         time.sleep(5)
 finally:
-    pixels.deinit()  # De-initialize the LED pixels
+    pixels.deinit()  # De-initialize the LED pixels.
 
 
