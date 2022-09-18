@@ -22,7 +22,7 @@ After having watched the *Stranger Things* S1E3 episode ["Holly, Jolly"](https:/
 ### Setup
 
 #### Prerequisites
- - [Python 3](https://www.python.org/downloads/)
+ - Python 3
  - Adafruit's NeoPixel library will be used to interface with the addressable LEDs. Installation instructions can be found [here...](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage)
 
 #### Project Diagram
