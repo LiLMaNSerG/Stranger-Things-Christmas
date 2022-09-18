@@ -8,7 +8,7 @@ I was inspired by the *Stranger Things* S1E3 episode ["Holly, Jolly"](https://yo
 
 ![Christmas Lights Screenshot](https://user-images.githubusercontent.com/15962563/190881093-5bd219e3-c89d-4c47-8ea9-32bedf4eba52.png)
 
-VIDEOS
+**VIDEOS**
 - [Stranger Things Pattern](https://youtube.com/shorts/BymeMe01auQ?feature=share)
 - [Christmas Bonanza](https://youtube.com/shorts/8blndQGe1bg?feature=share)
 
