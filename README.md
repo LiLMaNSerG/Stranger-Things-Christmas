@@ -27,6 +27,8 @@ After having watched the *Stranger Things* S1E3 episode ["Holly, Jolly"](https:/
 
 #### Project Diagram
 ![Christmas Lights Schematic](https://user-images.githubusercontent.com/15962563/190881040-889eec6e-b92b-445c-bab8-a39a8582b8bf.png)
+
+#### Inside the Project Box
 ![Christmas Lights Screenshot_1](https://user-images.githubusercontent.com/15962563/190890971-e7e4db16-f3a3-4795-a23f-d672c6494639.png)
 
 
