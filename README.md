@@ -21,14 +21,13 @@ After having watched *Stranger Things* S1E3 episode ["Holly, Jolly"](https://www
 
 ### Setup
 
-#### Project Diagram
-![Christmas Lights Schematic](https://user-images.githubusercontent.com/15962563/190881040-889eec6e-b92b-445c-bab8-a39a8582b8bf.png)
-
 #### Prerequisites
  - [Python 3](https://www.python.org/downloads/)
  - Adafruit's NeoPixel library will be used to interface with the addressable LEDs. Installation instructions can be found [here...](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage)
 
-#### End Result
+#### Project Diagram
+![Christmas Lights Schematic](https://user-images.githubusercontent.com/15962563/190881040-889eec6e-b92b-445c-bab8-a39a8582b8bf.png)
+
 ![Stranger Things Project Box](https://user-images.githubusercontent.com/15962563/190879736-4345d519-14d3-49de-8ced-50c4f2303aac.jpg)
 
 ### What's Next?
