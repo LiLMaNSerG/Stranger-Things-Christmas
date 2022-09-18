@@ -165,7 +165,7 @@ def stranger_things_pattern(input_string):
         pixels.show()
         time.sleep(0.08)
 
-# christmas_even_pattern sets odd and even lights on based on the christmas color pattern
+# christmas_even_pattern turns alternating lights on and off in a christmas color pattern
 def christmas_even_pattern(wait):
     print ("Christmas Even Pattern...")
     pixels[0] = color_dict['red']
