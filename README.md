@@ -27,11 +27,12 @@ After having watched the *Stranger Things* S1E3 episode ["Holly, Jolly"](https:/
 
 #### Project Diagram
 ![Christmas Lights Schematic](https://user-images.githubusercontent.com/15962563/190881040-889eec6e-b92b-445c-bab8-a39a8582b8bf.png)
+![Christmas Lights Screenshot_1](https://user-images.githubusercontent.com/15962563/190890971-e7e4db16-f3a3-4795-a23f-d672c6494639.png)
 
-![Stranger Things Project Box](https://user-images.githubusercontent.com/15962563/190879736-4345d519-14d3-49de-8ced-50c4f2303aac.jpg)
 
 ### What's Next?
 Having the knowledge gained from this project, I would love to extend this application to a full outdoor display for the holidays. In addition to driving different types of lights and chaining patterns together, I want to try and incorporate music to synchronize the whole presentation together.
 
 ### Contact
 You can reach out to me, Sergio Perez, at my [email](sperez.cpp@gmail.com).
+
