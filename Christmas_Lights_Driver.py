@@ -74,6 +74,79 @@ def test():
     pixels.fill(color_dict['cyan'])
     pixels.show()
 
+# wheel function generates the color spectrum for the rainbow_cycle function
+def wheel(pos):
+    # Input a value 0 to 255 to get a color value.
+    # The colours are a transition r - g - b - back to r.
+    if pos < 0 or pos > 255:
+        r = g = b = 0
+    elif pos < 85:
+        r = int(pos * 3)
+        g = int(255 - pos * 3)
+        b = 0
+    elif pos < 170:
+        pos -= 85
+        r = int(255 - pos * 3)
+        g = 0
+        b = int(pos * 3)
+    else:
+        pos -= 170
+        r = 0
+        g = int(pos * 3)
+        b = int(255 - pos * 3)
+    return (r, g, b) if ORDER in (neopixel.RGB, neopixel.GRB) else (r, g, b, 0)
+
+# rainbow_cycle pattern has a gradual color spectrum shift with a "wait" delay per step
+def rainbow_cycle(wait):
+    print ("Rainbow Cycle...")
+    for j in range(255):
+        for i in range(num_pixels):
+            pixel_index = (i * 256 // num_pixels) + j
+            pixels[i] = wheel(pixel_index & 255)
+        pixels.show()
+        time.sleep(wait)
+
+# domino_pattern shifts one active light down the full length of the NeoPixels strand and back with a "wait" delay per step.
+def domino_pattern(wait):
+    print ("Domino Pattern...")
+    pixels.fill(color_dict['off'])
+    pixels.show()
+    color_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'white']
+    random_color = random.choice(color_list)
+
+    for i in range(num_pixels):
+        pixels[i] = color_dict[random_color]
+        pixels[i-1] = (0, 0 ,0)
+        pixels.show()
+        time.sleep(wait)
+    for i in range(num_pixels):
+        pixels[(num_pixels - 1) - i] = color_dict[random_color]
+        pixels.show()
+        time.sleep(wait)
+        pixels[(num_pixels - 1) - i] = (0, 0, 0)
+        pixels.show()
+    pixels.fill((0, 0, 0))
+    pixels.show()
+
+# skip_pattern activates a light in a 1->3->2->4->3->5->4->6... pattern in one direction with a "wait" delay per step.
+def skip_pattern(wait):
+    print ("Skip Pattern")
+    pixels.fill(color_dict['off'])
+    pixels.show()
+    color_list = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'white']
+    random_color = random.choice(color_list)
+
+    for i in range(num_pixels - 2):
+        pixels[i] = color_dict[random_color]
+        pixels.show()
+        time.sleep(wait)
+        pixels[i] = color_dict['off']
+        pixels[i + 2] = color_dict[random_color]
+        pixels.show()
+        time.sleep(wait)
+        pixels[i + 2] = color_dict['off']
+        pixels.show()            
+            
 # christmas_pattern sets the default christmas color pattern across all lights.
 def christmas_pattern():
     print ("Christmas Pattern...")
