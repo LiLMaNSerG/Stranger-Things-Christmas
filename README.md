@@ -2,14 +2,11 @@
 A Christmas light display inspired by the show "Stranger Things".
 
 ## About the Project
-After having watched *Stranger Things* S1E3 episode ["Holly, Jolly"](https://youtu.be/jIQ9z2bxXyg?t=143), I was motivated to create my own window display for the Christmas season. Powered by a RaspberryPi and RGB adressable lights, you can create an endless pallate of colors, patterns, and messages to decorate your home for the holidays.  
+After having watched *Stranger Things* S1E3 episode ["Holly, Jolly"](https://www.youtube.com/watch?v=jIQ9z2bxXyg&t=164s), I was motivated to create my own window display for the Christmas season. Powered by a RaspberryPi and RGB adressable lights, you can create an endless pallate of colors, patterns, and messages to decorate your home for the holidays.  
 
-**Check it out!**
+[**VIDEO IN ACTION!**](https://youtube.com/shorts/BymeMe01auQ?feature=share)
 
 ![Christmas Lights Screenshot](https://user-images.githubusercontent.com/15962563/190881093-5bd219e3-c89d-4c47-8ea9-32bedf4eba52.png)
-
-**VIDEOS**
-- [Stranger Things Pattern](https://youtube.com/shorts/BymeMe01auQ?feature=share)
 
 ## Getting Started
 ### Supplies
@@ -23,7 +20,13 @@ After having watched *Stranger Things* S1E3 episode ["Holly, Jolly"](https://you
 - [Breadboard](https://www.amazon.com/DaFuRui-tie-Points-Solderless-Breadboard-Compatible/dp/B07KGQ7H8B/ref=sr_1_12_sspa?crid=1F83XRI4350YW&keywords=breadboard&qid=1663456870&s=industrial&sprefix=breadboar%2Cindustrial%2C164&sr=1-12-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFDMklDTUU2V1VTNiZlbmNyeXB0ZWRJZD1BMDc5NzMyMDJOVkI1NkZKSFRTNDQmZW5jcnlwdGVkQWRJZD1BMDU2NjA5NTJIM0JQN0VQVzRXWkMmd2lkZ2V0TmFtZT1zcF9tdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl) : I opted to use a breadboard for easy prototyping.
 
 ### Setup
-![Stranger Things Project Box](https://user-images.githubusercontent.com/15962563/190879736-4345d519-14d3-49de-8ced-50c4f2303aac.jpg)
 
-Schematic
+#### Project Diagram
 ![Christmas Lights Schematic](https://user-images.githubusercontent.com/15962563/190881040-889eec6e-b92b-445c-bab8-a39a8582b8bf.png)
+
+#### Prerequisites
+ - [Python 3](https://www.python.org/downloads/)
+ - Adafruit's NeoPixel library will be used to interface with the addressable LEDs. Installation instructions can be found [here.](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage)
+
+#### End Result
+![Stranger Things Project Box](https://user-images.githubusercontent.com/15962563/190879736-4345d519-14d3-49de-8ced-50c4f2303aac.jpg)
