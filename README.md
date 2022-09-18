@@ -2,7 +2,7 @@
 A Christmas light display inspired by the show "Stranger Things".
 
 ## About the Project
-I was inspired by the *Stranger Things* S1E3 episode ["Holly, Jolly"](https://youtu.be/jIQ9z2bxXyg?t=143) to create my own window display for the Christmas season. Powered by a RaspberryPi and RGB adressable lights, you can create an endless pallate of colors, patterns, and messages to decorate your home for the holidays.  
+After having watched *Stranger Things* S1E3 episode ["Holly, Jolly"](https://youtu.be/jIQ9z2bxXyg?t=143), I was motivated to create my own window display for the Christmas season. Powered by a RaspberryPi and RGB adressable lights, you can create an endless pallate of colors, patterns, and messages to decorate your home for the holidays.  
 
 **Check it out!**
 
