@@ -1,3 +1,7 @@
+# Stranger Things Christmas Driver Code
+# Description: Powered by a Raspberry Pi and RGB addressable lights, my build provides an endless palette of colors, patterns, and messages to 
+# set the NeoPixel strand.
+
 import time
 import board
 import neopixel  # The special library to drive the RGB LEDs.
