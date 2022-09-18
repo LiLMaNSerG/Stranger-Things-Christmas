@@ -31,7 +31,7 @@ After having watched the *Stranger Things* S1E3 episode ["Holly, Jolly"](https:/
 ![Stranger Things Project Box](https://user-images.githubusercontent.com/15962563/190879736-4345d519-14d3-49de-8ced-50c4f2303aac.jpg)
 
 ### What's Next?
-Having the knowledge gained from this project, I would love to extend this application to a full outdoor display for the holidays. In addition to driving different types of lights and chaining patterns together, I am interested in the incorporation of music to synchronize the whole presentation together.
+Having the knowledge gained from this project, I would love to extend this application to a full outdoor display for the holidays. In addition to driving different types of lights and chaining patterns together, I want to try incorporating music to synchronize the whole presentation together.
 
 ### Contact
 You can reach out to me, Sergio Perez, at my [email](sperez.cpp@gmail.com).
