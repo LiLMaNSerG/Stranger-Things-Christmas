@@ -308,7 +308,7 @@ def christmas_even_pattern(wait):
 
 try:
     while True:
-        # Performs a continuous light show of patterns based on our functions.
+        # Performs a continuous lightshow of patterns based on our functions.
         for i in range(20):
             christmas_even_pattern(1)
         christmas_pattern()
