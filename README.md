@@ -10,7 +10,6 @@ I was inspired by the *Stranger Things* S1E3 episode ["Holly, Jolly"](https://yo
 
 **VIDEOS**
 - [Stranger Things Pattern](https://youtube.com/shorts/BymeMe01auQ?feature=share)
-- [Christmas Bonanza](https://youtube.com/shorts/8blndQGe1bg?feature=share)
 
 ## Getting Started
 ### Supplies
